@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Boogaloo-Regular';
+    src: url(Boogaloo-Regular.ttf);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back {
+    background-image: url("Cold Pressed Off White.PNG");
+    background-color: beige;
+    margin: 0 auto;
+    font-family: 'Boogaloo-Regular';
+    color: gray;
+}
+
+.c {
+    /* 현빈 손예진 이미지 */
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.a {
+    text-align: center;
+    margin: 40px;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.b {
+    /* hyunbin ❤️ yejin */
+    padding: 30px;
+    color: yellowgreen;
+}
+
+.d,
+.f {
+    color: gray;
+}
+
+.d {
+    padding-bottom: 30px;
+}
+
+.f {
+    padding-top: 20px;
+}
+
+a {
+    color: green;
+
+}
+
+/* <a>태그 */
+
+a:hover {
+    color: pink;
+}
+
+/* <a> 호버했을때 */
