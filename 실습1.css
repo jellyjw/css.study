@@ -1,0 +1,34 @@
+/* 색깔 */
+:root {
+    --pastelPink: #F8C8DC;
+}
+
+body {
+    background-color: var(--pastelPink);
+}
+
+content {
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+    background-color: beige;
+    /* 가운데 정렬 하려면 블록 엘리먼트여야하고, 크기를 지정해야한다*/
+}
+
+
+/* block - 크기 지정 가능, 한줄 다 먹음
+inline - 크기 지정 불가, 자기 내용물만큼만 표시
+inline-block : 기본적으로 자기 만큼만 먹지만 크기지정도 가능
+
+margin-top
+margin-bottom
+margin-left
+margin-right
+
+margin : 0 auto  ---> 가운데 정렬
+*/
+
+
+/* margin : 10px;
+위 아래 왼쪽 오른쪽 전부 10px */
+/* margin : 10px 20px;
